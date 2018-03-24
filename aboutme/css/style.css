@@ -133,7 +133,7 @@ a:focus {
     }
 
 p {
-    margin-bottom : 20px;
+    margin-bottom : 15px;
     }
 
 strong {
@@ -223,13 +223,13 @@ button:focus,
 
 @media (max-width : 768px) {
     .section-wrapper {
-        padding : 20px 0;
+        padding : 10px 0;
         }
     }
 
 @media (max-width : 600px){
     .section-wrapper {
-        padding : 20px;
+        padding : 10px;
         }
     }
 
@@ -808,7 +808,6 @@ button:focus,
 /*------- Skills rings-------*/
 .heading
 {
-    color:#292929;
     border-bottom: 3.5px solid #E1E1E1;
     width: 130px;
     margin: 0 auto;
@@ -817,11 +816,13 @@ button:focus,
     text-shadow: 0px 0px 1px #292929;
     text-align: center;
     padding-bottom: 10px;
+    color  : #2d7788;
+
 }
 .para
 {
     color:#6C6C6C;
-    padding:3em 0em 4em 0em;
+    padding:10px 0px 3px 0em;
     text-align: center;
 }
 .centertxt {
@@ -831,20 +832,20 @@ button:focus,
 .text-light
 {
     background: #F5F5F5;
-    padding: 3em 0em;
+    padding: 0em 0em;
 }
 .chart {
     position: relative;
     display: inline-block;
-    margin: 1em;
-    width: 230px;
-    height: 230px;
+    margin: 2em;
+    width: 200px;
+    height: 200px;
     text-align: center;
 }
 
 .chart canvas {
-    width: 230px;
-    height: 230px;
+    width: 200px;
+    height: 200px;
 }
 
 .chart-content {
@@ -900,5 +901,18 @@ button:focus,
 .text-light .timeline .experience .circle {
     border-color: rgba(255,255,255,0.5);
 }
+.row{
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+.media-heading {
+    margin-bottom: 0px !important;
+}
+.no-bottom{
+    margin-bottom: 5px !important;
 
+}
+.margin-top-5{
+    margin-top: 2px;
+}
 /*-------------Timeline-----*/
