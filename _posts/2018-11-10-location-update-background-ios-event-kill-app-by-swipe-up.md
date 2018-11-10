@@ -58,24 +58,25 @@ tags: [ios, dev]
   stop update. Yes, we has not done with this. We have to process with UnityAppController (in Unity it is parent of UIApplicationDelegate in native ios)
   Let go!
   In AppDelegate we define:
- ```
-  @property (strong, nonatomic) LocationManager *locationManager;         
+ 
+ 
+     @property (strong, nonatomic) LocationManager *locationManager;         
 
-  - (BOOL)application:(UIApplication*)application willFinishLaunchingWithOptions:(NSDictionary*)launchOptions {
-     [self.locationManager startMonitoringLocation];
-     return YES;
-  }
-   - (void)applicationDidBecomeActive:(UIApplication *)application {  
+      - (BOOL)application:(UIApplication*)application willFinishLaunchingWithOptions:(NSDictionary*)launchOptions {
+         [self.locationManager startMonitoringLocation];
+         return YES;
+         }
+      - (void)applicationDidBecomeActive:(UIApplication *)application {  
           [self.locationManager startMonitoringLocation];
           [super applicationDidBecomeActive: application];
   
-      }
-   - (void)applicationWillTerminate:(UIApplication *)application {
+        }
+         - (void)applicationWillTerminate:(UIApplication *)application {
            [self.locationManager startMonitoringLocation];
            [super applicationWillTerminate: application];
    
        }    
-   ```
+   
    LocationManager can be found here: https://gist.github.com/phongnt57/d290fd11fd4113b7d70ffb28e9d0294f
       
   
