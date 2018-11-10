@@ -58,24 +58,24 @@ tags: [ios, dev]
   stop update. Yes, we has not done with this. We have to process with UnityAppController (in Unity it is parent of UIApplicationDelegate in native ios)
   Let go!
   In AppDelegate we define:
+  
  
- 
-     @property (strong, nonatomic) LocationManager *locationManager;         
+          @property (strong, nonatomic) LocationManager *locationManager;         
 
-      - (BOOL)application:(UIApplication*)application willFinishLaunchingWithOptions:(NSDictionary*)launchOptions {
+         -(BOOL)application:(UIApplication*)application willFinishLaunchingWithOptions:(NSDictionary*)launchOptions {
          [self.locationManager startMonitoringLocation];
          return YES;
          }
-      - (void)applicationDidBecomeActive:(UIApplication *)application {  
+         -(void)applicationDidBecomeActive:(UIApplication *)application {  
           [self.locationManager startMonitoringLocation];
           [super applicationDidBecomeActive: application];
   
-        }
-         - (void)applicationWillTerminate:(UIApplication *)application {
+          }
+         -(void)applicationWillTerminate:(UIApplication *)application {
            [self.locationManager startMonitoringLocation];
            [super applicationWillTerminate: application];
    
-       }    
+          }    
    
    LocationManager can be found here: https://gist.github.com/phongnt57/d290fd11fd4113b7d70ffb28e9d0294f
       
@@ -86,7 +86,7 @@ Don't be worry. When you move and change the location, the condition is trigger,
               `locationManager.distanceFilter = 10; // meters`
               
    I am beginner with ios developement and beginner with writing tutorial (so if you have trouble 
-   with reading this article, comment and send to ngothaiphong94@gmail.com)           
+   with reading this article, comment and send to ngothaiphong94@gmail.com). Thanks!           
       
     
 
