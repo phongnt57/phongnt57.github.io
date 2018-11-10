@@ -6,7 +6,7 @@ bigimg: /img/path.jpg
 tags: [ios, dev]
 ---
 
-Recently, I receive a task from my boss that develop a feature allow update
+ Recently, I receive a task from my boss that develop a feature allow update
  and receive location information in a ios app using Unity(with small ios plugin) even when user put the app in background
  and  manual kill it by double tap in home and swipe up.
  I have no experience in ios before. It seems hard to me so i spend a day to research with Google 
@@ -19,7 +19,7 @@ Recently, I receive a task from my boss that develop a feature allow update
  * Perform finite-length tasks: The generic “whatever” case, where the app can run arbitrary code for a limited amount of time.
  * Background Fetch: Get updates to the latest content scheduled by iOS.
  
- Ok, so how to implement location update in ios. I start with some tutorial on internet:
+ ###### Ok, so how to implement location update in ios. I start with some tutorial on internet:
  * Step 1: Define `Privacy — Location Always and When In Use Usage Description` and 
  `Privacy — Location When In Use Usage Description` string in Info.plist with whatever string
  you want.
@@ -31,8 +31,9 @@ Recently, I receive a task from my boss that develop a feature allow update
   `@interface ViewController () <CLLocationManagerDelegate>`
   * Step 4: In
              `(void)viewDidLoad` of ViewController.m we starting code:
-                   
-              `  locationManager = [[CLLocationManager alloc] init];
+                 ```
+                 
+                 locationManager = [[CLLocationManager alloc] init];
                  locationManager.desiredAccuracy = kCLLocationAccuracyNearestTenMeters;
                  locationManager.distanceFilter = 10; // meters
                  locationManager.pausesLocationUpdatesAutomatically = NO; // YES is default
@@ -41,9 +42,9 @@ Recently, I receive a task from my boss that develop a feature allow update
                  locationManager.activityType = CLActivityTypeAutomotiveNavigation;
                  locationManager.delegate = self;
                  [locationManager startUpdatingLocation];`
-                 
+                 ```
               
-   - Define function didUpdateLocations              
+   + Define function didUpdateLocations              
   ```- (void)locationManager:(CLLocationManager *)manager didUpdateLocations:(NSArray *)locations
   {
       CLLocation *location = [locations lastObject];
@@ -80,7 +81,8 @@ Recently, I receive a task from my boss that develop a feature allow update
    LocationManager can be found here: https://gist.github.com/phongnt57/d290fd11fd4113b7d70ffb28e9d0294f
       
   
- * Conclusion: I kill app but   with some test, found that location still not update.
+ ###### Conclusion: 
+ I kill app but with some test, found that location still not update.
 Don't be worry. When you move and change the location, the condition is trigger, and the app will wake up with location will be update:
               `locationManager.distanceFilter = 10; // meters`
               
