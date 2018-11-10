@@ -43,7 +43,7 @@ Recently, I receive a task from my boss that develop a feature allow update
                  [locationManager startUpdatingLocation];`
                  
               
-   Define function: didUpdateLocations              
+   - Define function didUpdateLocations              
   ```- (void)locationManager:(CLLocationManager *)manager didUpdateLocations:(NSArray *)locations
   {
       CLLocation *location = [locations lastObject];
@@ -52,13 +52,15 @@ Recently, I receive a task from my boss that develop a feature allow update
       // credit for this, thanks. http://stackoverflow.com/a/6466152/125615
      
   }  
-  ```     
+  ```  
+  
+     
   After implement those bunch of code, it works well, but when i kill app, location seems 
   stop update. Yes, we has not done with this. We have to process with UnityAppController (in Unity it is parent of UIApplicationDelegate in native ios)
   Let go!
   * Step 5:
   In AppDelegate we define:
-  ```
+ ```
   @property (strong, nonatomic) LocationManager *locationManager;         
 
   - (BOOL)application:(UIApplication*)application willFinishLaunchingWithOptions:(NSDictionary*)launchOptions {
@@ -76,7 +78,7 @@ Recently, I receive a task from my boss that develop a feature allow update
    
        }    
    ```
-   LocationManager can be found here :https://gist.github.com/phongnt57/d290fd11fd4113b7d70ffb28e9d0294f
+   LocationManager can be found here: https://gist.github.com/phongnt57/d290fd11fd4113b7d70ffb28e9d0294f
       
   
  * Conclusion: I kill app but   with some test, found that location still not update.
