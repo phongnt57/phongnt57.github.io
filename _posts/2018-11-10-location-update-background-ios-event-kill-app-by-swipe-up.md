@@ -26,7 +26,6 @@ Recently, I receive a task from my boss that develop a feature allow update
  * Step 2:  Enable location update in your project.
  ![image tooltip here](https://koenig-media.raywenderlich.com/uploads/2016/09/BM-EnableLocationInBG-650x354.png)
 
- [logo]:  "enable it"
  * Step 3: 
    We use CLLocationManagerDelegate in ViewController:
   `@interface ViewController () <CLLocationManagerDelegate>`
@@ -56,10 +55,9 @@ Recently, I receive a task from my boss that develop a feature allow update
   ```  
   
      
-  After implement those bunch of code, it works well, but when i kill app, location seems 
+  * Step 5: After implement those bunch of code, it works well, but when i kill app, location seems 
   stop update. Yes, we has not done with this. We have to process with UnityAppController (in Unity it is parent of UIApplicationDelegate in native ios)
   Let go!
-  * Step 5:
   In AppDelegate we define:
  ```
   @property (strong, nonatomic) LocationManager *locationManager;         
