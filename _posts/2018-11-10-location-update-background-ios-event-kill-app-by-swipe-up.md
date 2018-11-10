@@ -12,7 +12,7 @@ tags: [ios, dev]
  I have no experience in ios before. It seems hard to me so i spend a day to research with Google 
  and stackoverfow and found that background task only works in some case:
  In this background modes tutorial, you’ll investigate four ways of doing background processing:
- * Play audio: The app can continue playing and/or recording audio in the background.
+ * Play audio: The app can continue playing and or recording audio in the background.
  
  * Receive location updates: The app can continue to get callbacks as the device’s location changes.
  
@@ -44,15 +44,14 @@ tags: [ios, dev]
                  
               
    + Define function didUpdateLocations              
-  ```- (void)locationManager:(CLLocationManager *)manager didUpdateLocations:(NSArray *)locations
-  {
-      CLLocation *location = [locations lastObject];
-      
-      // I learned this method of getting a time interval from xs2bush on stackoverflow and wanted to give that person
-      // credit for this, thanks. http://stackoverflow.com/a/6466152/125615
-     
-  }  
-  ```  
+  
+         - (void)locationManager:(CLLocationManager *)manager didUpdateLocations:(NSArray *)locations
+         {
+            CLLocation *location = [locations lastObject];
+         }  
+         // I learned this method of getting a time interval from xs2bush on stackoverflow and wanted to give that person
+         // credit for this, thanks. http://stackoverflow.com/a/6466152/125615
+  
   
      
   * Step 5: After implement those bunch of code, it works well, but when i kill app, location seems 
