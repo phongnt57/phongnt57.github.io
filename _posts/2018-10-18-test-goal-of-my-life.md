@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Goals of 2019
-subtitle: Each post also has a subtitle
+subtitle: Hello!!
 gh-repo: daattali/beautiful-jekyll
 tags: [life]
 ---
