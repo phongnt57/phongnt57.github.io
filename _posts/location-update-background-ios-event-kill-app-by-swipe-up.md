@@ -1,9 +1,9 @@
 ---
 layout: post
 title: How to update location in background (iOS) even user kill by swipe up
-subtitle: Excerpt from Soulshaping by Jeff Brown
+subtitle: My first tech article
 bigimg: /img/path.jpg
-tags: [ios, develope]
+tags: [ios, dev]
 ---
 
 Recently, I receive a task from my boss that develop a feature allow update
