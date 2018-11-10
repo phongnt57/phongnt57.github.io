@@ -18,6 +18,7 @@ Recently, I receive a task from my boss that develop a feature allow update
  
  * Perform finite-length tasks: The generic “whatever” case, where the app can run arbitrary code for a limited amount of time.
  * Background Fetch: Get updates to the latest content scheduled by iOS.
+ 
  Ok, so how to implement location update in ios. I start with some tutorial on internet:
  * Step 1: Define `Privacy — Location Always and When In Use Usage Description` and 
  `Privacy — Location When In Use Usage Description` string in Info.plist with whatever string
