@@ -23,16 +23,16 @@ Recently, I receive a task from my boss that develop a feature allow update
  `Privacy — Location When In Use Usage Description` string in Info.plist with whatever string
  you want.
  * Step 2:  Enable location update in your project.
- ![alt text][logo]
- [logo]: https://koenig-media.raywenderlich.com/uploads/2016/09/BM-EnableLocationInBG-650x354.png "enable it"
+ ![image tooltip here](https://koenig-media.raywenderlich.com/uploads/2016/09/BM-EnableLocationInBG-650x354.png)
+
+ [logo]:  "enable it"
  * Step 3: 
    We use CLLocationManagerDelegate in ViewController:
   `@interface ViewController () <CLLocationManagerDelegate>`
   * Step 4: In
              `(void)viewDidLoad` of ViewController.m we starting code:
-                 ```javascript
-                 
-                 locationManager = [[CLLocationManager alloc] init];
+                   
+              `  locationManager = [[CLLocationManager alloc] init];
                  locationManager.desiredAccuracy = kCLLocationAccuracyNearestTenMeters;
                  locationManager.distanceFilter = 10; // meters
                  locationManager.pausesLocationUpdatesAutomatically = NO; // YES is default
@@ -40,10 +40,9 @@ Recently, I receive a task from my boss that develop a feature allow update
                  [locationManager requestAlwaysAuthorization];
                  locationManager.activityType = CLActivityTypeAutomotiveNavigation;
                  locationManager.delegate = self;
-                 [locationManager startUpdatingLocation];
-
- 
-                 ```
+                 [locationManager startUpdatingLocation];`
+                 
+              
    Define function: didUpdateLocations              
   ```- (void)locationManager:(CLLocationManager *)manager didUpdateLocations:(NSArray *)locations
   {
@@ -77,13 +76,13 @@ Recently, I receive a task from my boss that develop a feature allow update
    
        }    
    ```
-   LocationManager can be found in:https://gist.github.com/phongnt57/d290fd11fd4113b7d70ffb28e9d0294f
+   LocationManager can be found here :https://gist.github.com/phongnt57/d290fd11fd4113b7d70ffb28e9d0294f
       
   
  * Conclusion: I kill app but   with some test, found that location still not update.
-Don't be worry. When you move and change the location, the condition is trigger, and location will be update:
-   
+Don't be worry. When you move and change the location, the condition is trigger, and the app will wake up with location will be update:
               `locationManager.distanceFilter = 10; // meters`
+              
    I am beginner with ios developement and beginner with writing tutorial (so if you have trouble 
    with reading this article, comment and send to ngothaiphong94@gmail.com)           
       
