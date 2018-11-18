@@ -27,6 +27,7 @@ navbar-links:
   Resources:
     - Google play id: "https://play.google.com/store/apps/developer?id=NTPs"
     - GitHub Pages: "https://github.com/phongnt57"
+  Music:  "https://phongnt57.github.io/music-app "
   #Author's home: "http://deanattali.com"
 
 # Image to show in the navigation bar - image must be a square (width = height)
