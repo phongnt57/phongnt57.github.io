@@ -1,12 +1,12 @@
 ---
 layout: post
-title: Resolve problem Access Denied (Service: Amazon S3; Status Code: 403; Error Code: AccessDenied; Request ID: xxxx)
-subtitle: !!
-tags: [dev,amz]
+title: Resolve problem Access Denied Service Amazon S3
+subtitle: Status Code 403; Error Code AccessDenied; Request ID xxxx
+tags: [ios, dev]
 ---
 
 
-###for the beginer###
+
 Amazon S3 (Amazon Simple Storage Service)  is onf of famous storage for the Internet.
 It is designed to make web-scale computing easier for developers. Spring boot with Amazone SDK 
 is a good tool to implement a upload function. Implementing them is very simple with some line 
