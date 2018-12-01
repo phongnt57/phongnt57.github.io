@@ -23,7 +23,7 @@
   <div class="line"></div>
   <div class="text-wrap">
     <div class="text"><span>L</span><span>I</span><span>S</span><span>T</span><span>E</span><span>N</span>
-      <audio controls autoplay>
+      <audio id="audio" controls autoplay>
         <source src="thenightwemet.mp3" type="audio/ogg">
         Your browser does not support the audio element.
       </audio>
@@ -63,8 +63,14 @@
         </div>
       </div>
     </div>
-    <div class="mini-player_btn_wrapper"><i class="btn-prev fa fa-step-backward" aria-hidden="true"></i>
-      <div class="btn-switch"><i class="btn-play fa fa-play" aria-hidden="true"></i><i class="btn-pause fa fa-pause" aria-hidden="true"></i></div><i class="btn-next fa fa-step-forward" aria-hidden="true"></i><i class="btn-open-player fa fa-list" aria-hidden="true"></i>
+    <div class="mini-player_btn_wrapper">
+      <i class="btn-prev fa fa-step-backward" aria-hidden="true"></i>
+      <!--<div class="btn-switch">-->
+        <!--<i class="btn-play fa fa-play" aria-hidden="true"></i>-->
+        <!--<i class="btn-pause fa fa-pause" aria-hidden="true"></i>-->
+      <!--</div>-->
+      <!--<i class="btn-next fa fa-step-forward" aria-hidden="true"></i>-->
+      <i class="btn-open-player fa fa-list" aria-hidden="true"></i>
     </div>
   </div>
 
@@ -77,8 +83,9 @@
         <div class="title">The night we met</div>
         <div class="artist">Lord Huron</div>
       </div>
-      <div class="playback_btn_wrapper"><i class="btn-prev fa fa-step-backward" aria-hidden="true"></i>
-        <div class="btn-switch"><i class="btn-play fa fa-play" aria-hidden="true"></i><i class="btn-pause fa fa-pause" aria-hidden="true"></i></div><i class="btn-next fa fa-step-forward" aria-hidden="true"></i>
+      <div class="playback_btn_wrapper">
+        <!--<i class="btn-prev fa fa-step-backward" aria-hidden="true"></i>-->
+        <!--<div class="btn-switch"><i class="btn-play fa fa-play" aria-hidden="true"></i><i class="btn-pause fa fa-pause" aria-hidden="true"></i></div><i class="btn-next fa fa-step-forward" aria-hidden="true"></i>-->
       </div>
       <div class="playback_timeline">
         <div class="playback_timeline_start-time">00:31</div>
@@ -91,25 +98,37 @@
       </div>
     </div>
     <div class="list_wrapper">
-      <ul class="list"> 
+      <ul class="list" id="playlist">
         <li class="list_item selected"> 
           <div class="thumb"> </div>
-          <div class="info"> 
-            <div class="title">The night we met</div>
+          <div class="info">
+            <a class="title" href="https://s3.ap-northeast-2.amazonaws.com/phongnt57/The+Night+We+Met+-+Lord+Huron+%5B128kbps_MP3%5D+(1).mp3">
+              The night we met </a>
             <div class="artist">Lord Huron</div>
           </div>
         </li>
         <li class="list_item">
           <div class="thumb"> </div>
           <div class="info">
-            <div class="title">Say you will</div>
+            <a class="title" href="https://s3.ap-northeast-2.amazonaws.com/phongnt57/Say+You+Will+-+Tokyo+Square+%5B128kbps_MP3%5D.mp3">
+              Say you will            </a>
+
             <div class="artist">Tokyo Square</div>
           </div>
         </li>
         <li class="list_item">
           <div class="thumb"> </div>
           <div class="info">
-            <div class="title">Me To You, You To Me</div>
+            <a  class="title" href="https://s3.ap-northeast-2.amazonaws.com/phongnt57/music%3Alang-tham-thuy-chi.mp3">
+              Lặng thầm            </a>
+            <div class="artist">Thuy Chi</div>
+          </div>
+        </li>
+        <li class="list_item">
+          <div class="thumb"> </div>
+          <div class="info">
+            <a  class="title" href="https://s3.ap-northeast-2.amazonaws.com/phongnt57/Me+To+You_+You+To+Me+-+Scenery+With+Ridi+%5B128kbps_MP3%5D.mp3">
+              You to me, me to you            </a>
             <div class="artist">Scenery of Riding Bicycle</div>
           </div>
         </li>
