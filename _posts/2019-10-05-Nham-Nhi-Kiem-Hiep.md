@@ -4,8 +4,7 @@ title: [Nhàm chán] Bạn đang ở level
 subtitle: ....!
 tags: [kiemhiep,blog]
 ---
-
-
+========================<br/>
 
 
 Dưới rèm hiên, tuyết nhỏ từng giọt, từng giọt và đọng lại cao lên giống như những cây trụ trắng.
@@ -26,37 +25,35 @@ Quách Đại Lộ nhướng mắt :<br/>
 -Đếm nhín?<br/>
 Vương Động gật đầu :<br/>
 -Đếm chầm chậm, giữ lại từ từ đếm tiếp.<br/>
-Quách Đại Lộ muốn cười nhưng hắn cười không ra tiếng.
-##《Giang hồ tứ quái – Cổ Long 》
-=============================
+Quách Đại Lộ muốn cười nhưng hắn cười không ra tiếng. <br/>
+
+##Giang hồ tứ quái – Cổ Long
 =============================<br/>
 
  Hắn không muốn A Phi tiếp tục nghĩ về điều này. Bỗng nhiên hắn ngẩng đầu cười: “Ngươi nhìn kìa, cây mai kia đã nở hoa rồi”.
 A Phi nói: “Ừ”. Lý Tầm Hoan lại tiếp tục: “Ngươi có biết hoa đã nở bao đóa?”
 A Phi bảo: “Mười bảy đóa.”
-Lòng của Lý Tầm Hoan trầm xuống, nụ cười như cứng lại. Bởi vì hắn cũng từng đếm hoa mai, và hắn hiểu rằng khi một người đếm hoa mai là loại cô độc thế nào.
+Lòng của Lý Tầm Hoan trầm xuống, nụ cười như cứng lại. Bởi vì hắn cũng từng đếm hoa mai, và hắn hiểu rằng khi một người đếm hoa mai là loại cô độc thế nào. <br/>
 
-##《Kiếm khách đa tình vô tình kiếm – Cổ Long 》
-=============================
+##Kiếm khách đa tình vô tình kiếm – Cổ Long
 =============================<br/>
 
  "Có một ngày tôi đã ngắm mặt trời lặn bốn mươi bốn lần!"
  Và một lúc sau em nói thêm:
  "Ông biết đấy... khi mình buồn quá thì mình sẽ thích ngắm mặt trời lặn..."
  "Cái ngày bốn mươi bốn lần ngắm ấy, hẳn là cậu phải buồn lắm?"
- Nhưng hoàng tử bé không trả lời.
-##《Hoàng tử bé - Antoine de Saint Exupéry 》
-=============================
+ Nhưng hoàng tử bé không trả lời. <br/>
+##Hoàng tử bé - Antoine de Saint Exupéry
 =============================<br/>
 
 
 "Tớ yêu bầu trời. Bởi nhiều khi ngắm mãi không biết chán, nhưng đến lúc chán thì chỉ cần không ngẩng mặt lên là xong."
-
-## | Lắng nghe gió hát - Haruki Murakami |
-================================
+<br/>
+##Lắng nghe gió hát - Haruki Murakami
 ===============================<br/>
+
 -How about your weekend?<br/>
-Me:
+Me:<br/>
 <a href="https://www.youtube.com/watch?v=wZZ7oFKsKzY"
 target="_blank"><img src="https://i.kym-cdn.com/entries/icons/mobile/000/005/608/nyan-cat-01-625x450.jpg" 
 alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
