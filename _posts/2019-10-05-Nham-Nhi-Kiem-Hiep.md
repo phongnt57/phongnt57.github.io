@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [Nhàm chán] Bạn đang ở level 
+title: Nhàm chán - Bạn đang ở level 
 subtitle: ....!
 tags: [kiemhiep,blog]
 ---
@@ -43,7 +43,7 @@ Lòng của Lý Tầm Hoan trầm xuống, nụ cười như cứng lại. Bởi
  "Ông biết đấy... khi mình buồn quá thì mình sẽ thích ngắm mặt trời lặn..."
  "Cái ngày bốn mươi bốn lần ngắm ấy, hẳn là cậu phải buồn lắm?"
  Nhưng hoàng tử bé không trả lời. <br/>
-##Hoàng tử bé - Antoine de Saint Exupéry
+## Hoàng tử bé - Antoine de Saint Exupéry
 =============================<br/>
 
 
