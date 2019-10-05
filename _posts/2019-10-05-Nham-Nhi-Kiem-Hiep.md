@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 
-subtitle: [Nhàm chán] Bạn đang ở level 
+title: [Nhàm chán] Bạn đang ở level 
+subtitle: ....!
 tags: [kiemhiep,blog]
 ---
 
