@@ -27,7 +27,7 @@ Vương Động gật đầu :<br/>
 -Đếm chầm chậm, giữ lại từ từ đếm tiếp.<br/>
 Quách Đại Lộ muốn cười nhưng hắn cười không ra tiếng. <br/>
 
-##Giang hồ tứ quái – Cổ Long
+## Giang hồ tứ quái – Cổ Long
 =============================<br/>
 
  Hắn không muốn A Phi tiếp tục nghĩ về điều này. Bỗng nhiên hắn ngẩng đầu cười: “Ngươi nhìn kìa, cây mai kia đã nở hoa rồi”.
@@ -35,7 +35,7 @@ A Phi nói: “Ừ”. Lý Tầm Hoan lại tiếp tục: “Ngươi có biết 
 A Phi bảo: “Mười bảy đóa.”
 Lòng của Lý Tầm Hoan trầm xuống, nụ cười như cứng lại. Bởi vì hắn cũng từng đếm hoa mai, và hắn hiểu rằng khi một người đếm hoa mai là loại cô độc thế nào. <br/>
 
-##Kiếm khách đa tình vô tình kiếm – Cổ Long
+## Kiếm khách đa tình vô tình kiếm – Cổ Long
 =============================<br/>
 
  "Có một ngày tôi đã ngắm mặt trời lặn bốn mươi bốn lần!"
@@ -49,7 +49,7 @@ Lòng của Lý Tầm Hoan trầm xuống, nụ cười như cứng lại. Bởi
 
 "Tớ yêu bầu trời. Bởi nhiều khi ngắm mãi không biết chán, nhưng đến lúc chán thì chỉ cần không ngẩng mặt lên là xong."
 <br/>
-##Lắng nghe gió hát - Haruki Murakami
+## Lắng nghe gió hát - Haruki Murakami
 ===============================<br/>
 
 -How about your weekend?<br/>
